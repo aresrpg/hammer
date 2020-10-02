@@ -1,0 +1,27 @@
+{
+  "name": "@aresrpg/hammer",
+  "version": "1.0.0",
+  "description": "Hammer is an Anvil World Fixer",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier $PWD/\"**/*.js\" --no-semi --single-quote --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aresrpg/hammer.git"
+  },
+  "author": "AresRPG's Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aresrpg/hammer/issues"
+  },
+  "homepage": "https://github.com/aresrpg/hammer#readme",
+  "dependencies": {
+    "prismarine-provider-anvil": "^2.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
